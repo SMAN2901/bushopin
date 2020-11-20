@@ -1,0 +1,14 @@
+.srch-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.srch-list {
+    width: calc(100% - 20px);
+    max-width: 1200px;
+    margin: 10px;
+    display: block;
+}

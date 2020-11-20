@@ -1,0 +1,52 @@
+.srch-ftop {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: rgba(34, 20, 48, 0.8);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.srch-ftop .form-inp-container {
+    max-width: 250px;
+}
+
+.srch-ftop .form-btn {
+    margin: 0 10px;
+    margin-top: 12px;
+}
+
+.srch-ftop-loader {
+    width: calc(100% - 20px);
+    max-width: 1200px;
+    height: 4px;
+    background-color: rgb(0, 174, 255);
+    position: relative;
+    overflow: hidden;
+}
+
+.srch-ftop-loading:before {
+    content: "";
+    width: 20%;
+    height: 4px;
+    background-color: rgb(52, 35, 75);
+    position: absolute;
+    left: -20%;
+    will-change: transform;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(600%);
+    }
+}
