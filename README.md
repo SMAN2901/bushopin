@@ -8,6 +8,8 @@ This project uses following javascript packages:
 
 No external css library is used.
 
+Web app link: https://bushopin.web.app
+
 ## Usage
 
 Home page has a form for searching buses using location and dates.
